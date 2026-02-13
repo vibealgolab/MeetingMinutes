@@ -1,0 +1,63 @@
+{
+  "name": "meeting-minutes-ai",
+  "private": true,
+  "version": "1.0.0",
+  "author": "User",
+  "description": "AI Meeting Minutes Application",
+  "type": "module",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && electron-builder",
+    "electron:start": "electron .",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.562.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "tailwind-merge": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.2",
+    "electron": "^40.0.0",
+    "electron-builder": "^26.4.0",
+    "vite": "^7.3.1"
+  },
+  "build": {
+    "appId": "com.meetingminutes.ai",
+    "productName": "Meeting Minutes AI",
+    "directories": {
+      "output": "dist_electron"
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ],
+      "icon": "electron/icons/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Meeting Minutes AI",
+      "artifactName": "${productName}_Setup_${version}.${ext}"
+    },
+    "portable": {
+      "artifactName": "${productName}_Portable_${version}.${ext}"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "package.json"
+    ],
+    "extends": null
+  }
+}
