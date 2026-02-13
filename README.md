@@ -36,13 +36,15 @@ Meeting Minutes AI is a professional desktop application that leverages Google's
 3. **Analyze**: Select the source audio language and output language, then click **Analyze Meeting**.
 4. **Export**: Save your transcript (.txt) and summary (.md) directly to your computer.
 
-## Development
+## Development & Vibe Coding
 
 Built with:
 - [Electron](https://www.electronjs.org/)
 - [Vite](https://vitejs.dev/)
 - [React](https://reactjs.org/)
 - [Google Generative AI SDK](https://github.com/google-gemini/generative-ai-js)
+
+**New to AI-powered development?** Check out our [Vibe Coding Guide](docs/vibe-coding-guide.md) to learn how this app was built and how you can create your own!
 
 ## License
 
