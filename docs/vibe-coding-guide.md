@@ -1,61 +1,93 @@
-# 🤖 Vibe Coding Guide: Building Meeting Minutes AI
+# 🤖 The Vibe Coding Manifesto: Building Meeting Minutes AI
 
-This guide is designed for beginners who want to build professional-grade applications like **Meeting Minutes AI** using the power of AI agentic coding assistants (Vibe Coding).
+Welcome to the future of software development. **Vibe Coding** is a paradigm shift where your primary tool isn't a keyboard, but your **intent**. This guide will show you how to build the "Meeting Minutes AI" app from scratch using only AI agentic coding assistants.
+
+---
+
+## � Table of Contents
+1. [What is Vibe Coding?](#-what-is-vibe-coding)
+2. [Prerequisites](#-prerequisites)
+3. [Phase 1: The Blueprint (Initialization)](#phase-1-the-blueprint-initialization)
+4. [Phase 2: The UI Canvas (Design)](#phase-2-the-ui-canvas-design)
+5. [Phase 3: The Brain (Gemini AI Integration)](#phase-3-the-brain-gemini-ai-integration)
+6. [Phase 4: The Polishing (Iterative Debugging)](#phase-4-the-polishing-iterative-debugging)
+7. [Phase 5: The Delivery (Packaging)](#phase-5-the-delivery-packaging)
+8. [Expert Vibe-Coding Tips](#-expert-vibe-coding-tips)
+
+---
 
 ## 💡 What is Vibe Coding?
 
-**Vibe Coding** isn't about writing every line of code manually. It's about acting as an **Architect and Product Manager**, communicating your "vibe" (intent and requirements) to an AI agent (like Antigravity, Claude, or Cursor) and letting it handle the implementation details.
+Vibe Coding is about **Agentic Programming**. You act as the **Product Manager and Architect**, while the AI performs as the **Senior Lead Developer**. You don't write code; you communicate the "vibe"—the desired outcome, the aesthetic, and the functional logic.
 
 ---
 
-## 🛠️ Step 1: Preparation
+## 🛠 Prerequisites
 
-Before you start your first prompt, ensure you have:
-1.  **Google AI Studio API Key**: Get it from [aistudio.google.com](https://aistudio.google.com/). This is the "brain" for your app's transcription and summarization.
-2.  **Node.js Installed**: Essential for running modern web and desktop apps (React, Electron).
-3.  **An AI Agent**: Use a powerful coding agent that can read and write files directly in your project.
-
----
-
-## 🚀 Step 2: Bootstrapping the Project
-
-Instead of setting up Vite or Electron manually, tell the AI:
-> "Vite와 React를 사용하여 데스크탑 앱 프로젝트를 만들어줘. 프레임워크는 Electron을 사용할 거야. 다크 모드 테마를 기본으로 하고, Lucide-React 아이콘 라이브러리를 설치해줘. 나중에 Gemini AI를 사용할 수 있게 @google/generative-ai 패키지도 미리 추가해줘."
+Before starting, ensure you have:
+- **Node.js**: The engine that runs React and Electron.
+- **VS Code**: Your canvas.
+- **An Agentic AI**: (e.g., Antigravity, Claude Engineer, Cursor) that can natively read/write project files.
+- **Gemini API Key**: Get it at [aistudio.google.com](https://aistudio.google.com/).
 
 ---
 
-## 🎨 Step 3: Designing the UI (The "WOW" Factor)
+## Phase 1: The Blueprint (Initialization)
 
-Vibe coding shines in UI layout. Don't be afraid to ask for premium designs:
-> "미팅 분석 결과를 보여줄 수 있는 전문적인 디자인의 대시보드 화면을 만들어줘. 왼쪽에는 오디오 플레이어와 언어 선택 드롭다운이 있고, 오른쪽에는 AI 요약이 담긴 카드 섹션이 있어야 해. 현대적인 글래스모피즘(Glassmorphism) 스타일과 부드러운 애니메이션을 적용해줘."
+**Goal**: Create a modern desktop app shell.
 
----
-
-## 🧠 Step 4: Implementing the AI Logic
-
-When it comes to complex APIs like Gemini, be specific about the flow:
-> "Gemini API의 2.5 Flash 모델을 사용하여 오디오 파일을 분석하는 서비스를 만들어줘. 음성 파일을 텍스트로 바꾸는 Transcription 작업과, 그 내용을 요약하는 Summarization 작업을 별개로 수행하도록 설계해줘. 진행 상태를 화면에 퍼센트로 표시할 수 있게 status callback도 넣어줘."
+**Prompt to your AI Agent:**
+> "Create a modern desktop application using **Vite**, **React**, and **Electron**. Use a dark theme by default. Install the following libraries: `lucide-react` for icons, `react-markdown` for showing results, and `@google/generative-ai` for the AI connection. Set up a clean folder structure with `electron/` for main processes and `src/` for the UI."
 
 ---
 
-## 🔧 Step 5: Fixing Errors (The Expert Tip)
+## Phase 2: The UI Canvas (Design)
 
-During development, you might encounter path issues (like `ENOENT`). Use the AI to debug:
-> "Electron 환경에서 오디오 파일을 업로드할 때 파일 경로를 찾을 수 없는 에러가 발생해. 파일을 앱 내부의 Recordings 폴더로 먼저 복사(Import)한 다음 처리하는 안정적인 방식을 제안하고 코드를 수정해줘."
+**Goal**: Create a premium, state-of-the-art interface.
 
----
-
-## 📦 Step 6: Packaging for the World
-
-Once the app feels right, ask the AI to build it:
-> "이 앱을 다른 사람들에게 배포할 수 있게 electron-builder 설정을 해줘. 윈도우용 Installer(Setup)와 무설치 버전(Portable) 두 가지가 모두 생성되게 해주고, npm run build 명령어로 이 작업이 수행되도록 해줘."
+**Prompt to your AI Agent:**
+> "Design a premium 'Meeting Minutes AI' dashboard. The layout should be split: 
+> - **Left Panel**: Audio player, file upload zone, and language selection.
+> - **Right Panel**: A scrollable AI Summary card.
+> Apply a **Glassmorphism** style with subtle gradients, rounded corners, and smooth hover animations. Use a deep navy and electric blue color palette. Make sure it looks like a high-end SaaS product, not a simple MVP."
 
 ---
 
-## 🌟 Top Tips for Vibe Coders
-- **Be Bold**: If the design looks too simple, ask for "more professional" or "premium state-of-the-art" styles.
-- **Iterate Fast**: Don't try to get it perfect in one go. Build the core first, then refine the UI/UX.
-- **Ask 'Why'**: If you don't understand a piece of code, ask the AI to explain the logic.
+## Phase 3: The Brain (Gemini AI Integration)
+
+**Goal**: Make the app actually "think."
+
+**Prompt to your AI Agent:**
+> "Implement the AI logic using the **Gemini 2.5 Flash** model. Create a service that uploads an audio file to Gemini and performs two distinct steps:
+> 1. **Transcription**: Convert the whole audio to text.
+> 2. **Summarization**: Generate structured meeting minutes (Key points, Action Items, Decisions).
+> Provide a callback for progress updates (e.g., 'Transcribing...', 'Summarizing...') so the user knows what's happening."
 
 ---
-*Created with ❤️ for the next generation of AI-Native Developers.*
+
+## Phase 4: The Polishing (Iterative Debugging)
+
+**Goal**: Fix the inevitable "vibe-breaks" (errors).
+
+**Prompt Example for Errors:**
+> "I'm getting an `ENOENT` error when I try to upload external files. I suspect it's because Electron can't access the file path directly. Can you modify the app so it first **imports (copies)** any selected file into a local `Recordings/` folder within the app directory before sending it to Gemini? This will ensure the path is always stable."
+
+---
+
+## Phase 5: The Delivery (Packaging)
+
+**Goal**: Turn your code into a `.exe` file for users.
+
+**Prompt to your AI Agent:**
+> "Configure `electron-builder` to package this app for Windows. I need two versions: a **Setup Installer (.exe)** and a **Portable version** that runs without installation. Make sure the 'Recordings' folder is handled correctly so files aren't lost when the app updates."
+
+---
+
+## 🌟 Expert Vibe-Coding Tips
+
+1.  **Be Explicit about Aesthetics**: Use words like "Premium," "Professional," "Sleek," and "Modern." If it looks basic, tell the AI: *"The UI looks too generic. Add micro-interactions and better spacing to make it feel expensive."*
+2.  **Iterate on Logic**: If the summary is too short, say: *"The AI summary is too brief. Change the prompt to Gemini to include a detailed breakdown of speaker intentions."*
+3.  **Trust but Verify**: Always ask the AI to run `npm run lint` or check the build status to ensure the code is production-ready.
+
+---
+*Created with ❤️ for the Vibe Coding Community. Let's build the future together.*
