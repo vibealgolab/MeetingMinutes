@@ -50,5 +50,7 @@ Built with:
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
+"We respect your privacy. Your audio files and API keys are stored LOCALLY on your device and are processed via Google Gemini API solely for transcription. We do not store your data on our servers."
+
 ---
 *Created with ❤️ for global professional productivity.*
